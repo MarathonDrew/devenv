@@ -1,22 +1,29 @@
 # Development Environment Setup
 
-## Install oh-my-zsh
-
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
 ## Install Homebrew
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-## Install Git
+## Install Brew Basics
 
 ```
 brew install git
+brew cask install iterm2
 ```
+
+Note:  close stock terminal and open iTerm2 now
+
+## Install oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+## Install PowerLevel10k
+
+See [PowerLevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 
 ## Link config files
 
@@ -30,8 +37,6 @@ ln -s devenv/gitconfig .gitconfig
 ```
 brew install node
 brew install pyenv
-brew tap caskroom/cask
-brew cask install iterm2
 brew cask install firefox
 brew cask install google-chrome
 brew cask install visual-studio-code
