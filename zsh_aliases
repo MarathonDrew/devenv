@@ -1,0 +1,2 @@
+alias ls="ls -lh -G"
+alias condacreate="conda create python=3.9 --name "
