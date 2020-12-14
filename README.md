@@ -36,7 +36,7 @@ ln -s devenv/gitconfig .gitconfig
 
 ```
 brew install node
-brew install pyenv
+brew cask install anaconda
 brew cask install firefox
 brew cask install google-chrome
 brew cask install visual-studio-code
